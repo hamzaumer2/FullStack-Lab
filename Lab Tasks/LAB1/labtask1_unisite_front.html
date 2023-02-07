@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>University Homepage</title>
+    <style>
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 50px;
+      }
+      h1 {
+        font-size: 60px;
+        margin-bottom: 0;
+      }
+      nav {
+        background-color: #eee;
+        padding: 10px;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+      section {
+        padding: 50px;
+      }
+      .highlight {
+        background-color: #ddd;
+        padding: 20px;
+        text-align: center;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>University Name</h1>
+      </div>
+    </header>
+    <nav>
+      <div class="container">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="about">
+      <div class="container">
+        <h2>About University</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim ornare nisi, vitae mattis nulla ante id dui.</p>
+      </div>
+    </section>
+    <section id="programs">
+      <div class="container">
+        <h2>Our Programs</h2>
+        <div class="highlight">
+          <h3>Program 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        </div>
+        <div class="highlight">
+          <h3>Program 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+       
+        </div>
+        <div class="highlight">
+          <h3>Program 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <br><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
