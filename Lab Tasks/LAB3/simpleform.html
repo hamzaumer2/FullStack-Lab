@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Student Survey Form</title>
+    </head>
+    
+    <body>
+        <form action="#">
+            <div align = "centre">
+                <h1>Student Survey Form</h1>
+                <label>Enter your Name: </label>
+                <input type = "text" name = "username" size = "35" maxlength="35" placeholder="Name here">
+            <br>       
+                <label>Enter your Department</label>
+                <input type = "text" name = "department" size = "35" maxlength="35" placeholder="Department here">
+            <br>
+                <label> About Yourself:</label>
+                <textarea name = "Comments" cols = 30 rows = 4 ></textarea>
+            <br>
+                <label>Do you extercise at home?</label>
+                <input type = "radio" name = "exercise" value = "1">Yes
+                <input type = "radio" name = "exercise" value = "0">No
+                <br>
+                <label>How do you like to read about your favourite topics?</label>
+                <p>
+                <input type = "checkbox" name = "read" value = "Books">Books
+                <input type = "checkbox" name = "read" value = "Web">Online Sources
+                <input type = "checkbox" name = "read" value = "Phone">Phone Apps
+                <input type = "checkbox" name = "read" value = "Mag">Magazines
+                </p>
+                <br>
+                <label> Subjects you like</label>
+                <select name = "subjects preference">
+                    <option value = "1" selected = "true">Programming Fundametals</option>
+                    <option value = "2">Data Structures</option>
+                    <option value = "3">Computer Networks</option>
+                    <option value = "4">Artificial Intelligence</option>
+                    </select>
+                    <br>
+                    <input type = "submit" value = "Submit">
+                    </div>
+            </div>
+        </form>
+    </body>
+</html>
