@@ -1,0 +1,151 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  header {
+	background-color: #333;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px;
+}
+
+nav ul li a:hover {
+	color: #ff0;
+}
+
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Left column styles */
+  .left-column {
+    flex: 1;
+  }
+  
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .name {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin: 0;
+    color: #777;
+  }
+  
+  .skills {
+    margin-top: 30px;
+  }
+  
+  .skills h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills li {
+    display: inline-block;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Right column styles */
+  .right-column {
+    flex: 1;
+  }
+  
+  .download {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .download a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .education,
+  .experience {
+    margin-bottom: 50px;
+  }
+  
+  .education h2,
+  .experience h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+  
+  .education-item,
+  .experience-item {
+    margin-bottom: 30px;
+  }
+  
+  .education-date,
+  .experience-date {
+    font-size: 18px;
+    margin: 0;
+    color: #777;
+  }
+  
+  .education-description,
+  .experience-description {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .experience-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .experience-item li {
+    margin-bottom: 5px;
+  }
