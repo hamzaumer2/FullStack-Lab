@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+            <meta name="viewport" content="width=device-width">
+            <title>Document</title>
+        </head>
+        <body>
+            <h1>Async and Wait function</h1>
+            <h2 id = "async"></h2>
+            <script>
+                async function test(){
+                    let promise = new Promise(function(resolve, reject) {
+                        resolve("We have a another quiz on Friday");
+                    });
+                    document.getElementById("async").innerHTML = await promise;
+                } 
+                test();
+                // var promise = new Promise(function(resolve, reject){
+                // reject("Promise Rejected")
+                // });
+                // promise.then(function(SuccessMessage){
+                //     console.log(SuccessMessage);},function(errorMessage){
+                //         console.log(errorMessage);
+                //     });
+            </script>
+    </body>
+</html>
