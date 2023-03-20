@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Async and Await function</h1>
+    <h2 id="async"></h2>
+   <script>
+    async function test(){
+        let promise = new Promise(function(resolve, reject)
+        {
+            resolve("We have another quiz in friday class, so be ready");
+        });
+        document.getElementById("async").innerHTML= await promise;
+    }
+    test();
+   </script>
+</body>
+</html>

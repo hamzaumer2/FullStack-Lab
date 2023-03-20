@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="text">
+        <h2>Coordinate System </h2>
+
+    </div>
+    <p id="p1"></p>
+    <p id="p2"></p>
+
+    <script>
+        let element = document.getElementById('p1');
+        document.addEventListener('click', function (event) {
+            element.innerHTML = "clientX " + event.clientX + ' : ' + "clientY " + event.clientY;
+        });
+
+        let el = document.getElementById('p2');
+        document.addEventListener('click', function (event) {
+            el.innerHTML = "pageX " + event.pageX + ' : ' + "pageY " + event.pageY;
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function randomString() {
+        var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+        var length = 7;
+        var ranstring = '';
+        for (var i = 0; i < length; i++) {
+            var num = Math.floor(Math.random() * characters.length);
+            ranstring += characters.substring(num, num + 1);
+        }
+        document.getElementById("randomfield").innerHTML = ranstring;
+    }
+</script>
+<body>
+    <h2 style="color: green"> Random String Generator </h2>
+    <h3> Click the button to generate a random string </h3>
+
+    <form name="form">
+        <input type="button" value="Generate Random String" onClick="randomString();">
+        <br><br>
+        <b>
+            <p id="randomfield" style="color: green"> </p>
+        </b>
+    </form>
+ 
+
+
+</body>
+
+</html>

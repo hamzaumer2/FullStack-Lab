@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Insert Before, append child example</h1>
+
+    <button onclick="myFunction()">Remove Child</button>
+    <ul id="list">
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+    </ul>
+    <script>
+        function myFunction() {
+            const list = document.getElementById("list");
+            list.removeChild(list.firstElementChild);
+        }
+    </script>
+</body>
+
+</html>

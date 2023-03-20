@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        const a = document.createElement("li");
+        const b = document.createTextNode("Wednesday");
+        a.appendChild(b);
+        const list = document.getElementById("list");
+        list.insertBefore(a, list.children[0]);
+    </script>
+</body>
+
+</html>

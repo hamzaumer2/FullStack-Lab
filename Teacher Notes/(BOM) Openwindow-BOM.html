@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        var newwindow;
+        function openwindow() {
+            newwindow = window.open("", "", "width=400, height=200");
+        }
+        function closewindow() {
+            newwindow.close();
+        }
+    </script>
+    <form>
+        <input type="button" value="open window" onclick="openwindow()">
+        <input type="button" value="close window" onclick="closewindow()">
+    </form>
+</body>
+</html>

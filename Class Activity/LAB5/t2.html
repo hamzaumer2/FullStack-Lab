@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+            <meta name="viewport" content="width=device-width">
+            <title>Document</title>
+        </head>
+        <body>
+            <script>
+                const num = [1,2,3,4,5];
+                num.forEach((num, index) => {
+                    console.log(num, index);
+                })
+
+                const fruits = new map(["apple", 500], ["oranges", 700],["banana", 200]);
+                let text = "";
+                fruits.foreach(function(value, key){
+                    text += key + " = " + value + "<br/>"
+                })
+                document.getElementById("map").innerHTML = text;
+            </script>
+    </body>
+</html>

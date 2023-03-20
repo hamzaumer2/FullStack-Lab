@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>createTextNode</title>
+    <script>
+        function addTextNode(text) {
+            const createtxt = document.createTextNode(text);
+            const p1 = document.getElementById("p1");
+
+            p1.appendChild(createtxt);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="addTextNode('YES! ');">YES!</button>
+    <button onclick="addTextNode('NO! ');">NO!</button>
+    <button onclick="addTextNode('WE CAN! ');">WE CAN!</button>
+    <hr />
+    <p id="p1">First line of paragraph.</p>
+</body>
+
+</html>

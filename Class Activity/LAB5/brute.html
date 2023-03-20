@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <meta name="viewport" content="width=device-width">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            const num = [1,2,3,4,5];
+            const target = 13;
+            const result = sum(num, target);
+            function sum(num,target){
+                const map = new Map();
+            for (let i = 0; i < num.length; i++) {
+                const answer = target - num[i];
+                if (map.has(answer)) {
+                    return [map.get(answer), i];
+                }
+                map.set(num[i], i);
+            }
+            return[];
+        }
+        </script>
+    </body> 
+</html>
