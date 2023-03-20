@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Map()</title>
+</head>
+
+<body>
+    <p id="map"></p>
+
+    <script>
+      
+        const fruits = new Map([
+            ["apple", 500],
+            ["Orange", 700],
+            ["bananas", 200]
+        ]);
+
+        let text = "";
+        fruits.forEach(function (value, key) {
+            text += key + " = " + value + "<br/>"
+        })
+        document.getElementById("map").innerHTML = text;
+
+          /*      const number = [1,2,3,4,5];
+             number.forEach((number, index) => {
+                 console.log('Index ' +  index  + 'value: ' +  number);
+             }); */
+    </script>
+
+</body>
+
+</html>

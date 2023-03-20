@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM</title>
+    </head>
+    <body>
+        <h2>Navigator object</h2>
+        <p id="cookie"></p>
+        <p id="product"></p>
+        <p id="APPname"></p>
+        <p id="APPcodename"></p>
+        <p id="APPversion"></p>
+        <script>
+        document.getElementById("cookie").innerHTML = "navigator.cookieEnabled:"+ navigator.cookieEnabled;
+        document.getElementById("APPcodename").innerHTML = "navigator.appCodeName is " + navigator.appCodeName;
+        document.getElementById("APPname").innerHTML = "navigator.appName is " + navigator.appName;
+        document.getElementById("APPversion").innerHTML = navigator.appVersion;
+        document.getElementById("product").innerHTML = "navigator.product is " + navigator.product;
+        </script>
+
+    </body>
+    </html>

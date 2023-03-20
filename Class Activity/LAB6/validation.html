@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+            <meta name="viewport" content="width=device-width">
+            <title>Document</title>
+            <link rel = "stylesheet" href = "form.css">
+    </head>
+    <body>
+        <div class = "mail">
+            <h2>Enter Input Here</h2>
+            <form name = "form1" action = "#" onsubmit="required();">
+            <ul>
+                <li><input type = "text" name = "text1"></li>
+                <li class = "req">*Required Field</li>
+                <li><input type = "submit" name = "submit" value = "submit" onclick="validateEmail(document.form1.text1)"></li>
+            </ul>
+            </form>
+        </div>
+        <script src = "form.js"></script>
+    </body>
+</html>
