@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 LABMID</title>
+</head>
+<body>
+    <div class = "calc">
+        <style>
+            .zeroth p{
+                margin-right: 1600px;
+                background-color: aqua;
+            }
+        </style>
+    <div class = "zeroth">
+    <p>Calc: <span id = "result"></span><br>
+        <button id = "C"> C </button>
+    </div>
+    <div class = "first">
+        <button id = "1" onclick="numShow(1)"> 1 </button>
+        <button id = "2" onclick="numShow(2)"> 2 </button>
+        <button id = "3" onclick="numShow(3)"> 3 </button>
+        <button id = "+" onclick="numShow('+')"> + </button>
+    </div>
+
+    <div class = "second">
+        <button id = "4" onclick="numShow(4)"> 4 </button>
+        <button id = "5" onclick="numShow(5)"> 5 </button>
+        <button id = "6" onclick="numShow(6)"> 6 </button>
+        <button id = "*" onclick="numShow('-')"> * </button>
+    </div>
+
+    <div class = "third">
+        <button id = "7" onclick="numShow(7)"> 7 </button>
+        <button id = "8" onclick="numShow(8)"> 8 </button>
+        <button id = "9" onclick="numShow(9)"> 9 </button>
+        <button id = "-" onclick="numShow('-')"> - </button>
+    </div>
+
+    <div class = "fourth">
+        <button id = "0" onclick="numShow(2)"> 0 </button>
+        <button id = "." onclick="numShow('.')"> . </button>
+        <button id = "=" onclick="numShow('=')"> = </button>
+        <button id = "/" onclick="numShow('/')"> / </button>
+
+    </div>
+</div>
+</body>
+<script src="./q2.js"></script>
+
+</html>

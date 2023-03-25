@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 LABMID</title>
+</head>
+<body>
+    <form onsubmit="event.preventDefault(); onFormSubmit();">
+        <div class="container">                 
+            <label id="label" for="name"><b>Name</b></label>
+            <input type="text" placeholder="Name" name="name" id="name" required>
+            
+            <label id="label" for="age"><b>Age</b></label>
+            <input type="number" name="age" id="age" placeholder="age" required>
+
+            <label id="label" for="City"><b>City</b></label>
+            <input type="text" placeholder="Enter City" name="city" id="city" required>
+
+            <button type="submit" name="submit" class="submit">Submit</button>
+        </div>
+    </form>
+
+    <table id="q3">
+        <h1 id="record">Display Data</h1>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Delete</th>
+            </tr>
+    </table>
+</body>
+<script src="./q3.js"></script>
+
+</html>
