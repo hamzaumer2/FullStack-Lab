@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+li {
+    float: left;
+  }
+  
+  .route {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+.flex{
+    margin: 10px
+}

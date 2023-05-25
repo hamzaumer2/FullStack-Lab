@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+
+}
+h1 {
+    color: #4b0082;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+}
+.summary {
+    font-size: 24px;
+    margin: 50px auto;
+    max-width: 800px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.book-cover {
+    display: block;
+    margin: 50px auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.reasons {
+    margin: 50px auto;
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+.reasons li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.purchase-link {
+    font-size: 24px;
+    text-align: center;
+    margin: 50px auto;
+    display: block;
+}
+.purchase-link:hover {
+    text-decoration: underline;
+    color: purple;
+}
